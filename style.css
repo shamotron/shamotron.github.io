@@ -1,0 +1,349 @@
+@charset "UTF-8";
+/*@font-face */
+@font-face{
+	font-family:"Existence-Light";
+	src: url("http://www.iamas.ac.jp/~wakame10/font/Existence_Light/Existence-Light.otf");
+	format("opentype");
+}
+
+@font-face{
+	font-family:"Plexifont-BV";
+	src: url("http://www.iamas.ac.jp/~wakame10/font/Plexifont-BV/plexifont.ttf");
+	format("opentype");
+}
+
+
+@font-face{
+	font-family:"Existence-Light";
+	src: url("http://www.iamas.ac.jp/~wakame10/font/Existence_Light/Existence-Light.otf");
+	format("opentype");
+}
+
+@font-face{
+	font-family:"Raleway";
+	src: url("http://www.iamas.ac.jp/~wakame10/font/Raleway/raleway_thin.otf");
+	format("opentype");
+}
+
+@font-face{
+	font-family:"Commandoy";
+	src: url("http://www.iamas.ac.jp/~wakame10/font/Commando/commando.ttf");
+	format("opentype");
+}
+
+@font-face{
+	font-family:"Plexifont-BV";
+	src: url("http://www.iamas.ac.jp/~wakame10/font/Plexifont-BV/plexifont.ttf");
+	format("opentype");
+}
+
+@font-face{
+	font-family:"Kitchen-police";
+	src: url("http://www.iamas.ac.jp/~wakame10/font/Kitchen-police/KITCHENPOLICE.ttf");
+	format("opentype");
+}
+
+@font-face{
+	font-family:"Salaryman";
+	src: url("http://www.iamas.ac.jp/~wakame10/font/Salaryman/SALARYMA.ttf");
+	format("opentype");
+}
+
+@font-face{
+	font-family:"VanBerger";
+	src: url("http://www.iamas.ac.jp/~wakame10/font/VanBerger/VanBerger_Stencil.otf");
+	format("opentype");
+}
+
+@font-face{
+	font-family:"CPMono_v07_ExtraLight";
+	src: url("http://www.iamas.ac.jp/~wakame10/font/CPMono_v07/CPMono_v07_ExtraLight.otf");
+	format("opentype");
+}
+
+
+@font-face{
+	font-family:"orbitron-bold";
+	src: url("http://www.iamas.ac.jp/~wakame10/font/Orbitron/orbitron-bold.otf");
+	format("opentype");
+}
+
+@font-face{
+	font-family:"orbitron-medium";
+	src: url("http://www.iamas.ac.jp/~wakame10/font/Orbitron/orbitron-medium.otf");
+	format("opentype");
+}
+
+
+@font-face{
+	font-family:"orbitron-light";
+	src: url("http://www.iamas.ac.jp/~wakame10/font/Orbitron/orbitron-light.otf");
+	format("opentype");
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial,sans-serif;
+  /*
+  font-family: Georgia, Palatino, Times, 'Times New Roman', sans-serif;
+  */
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./img/p5.png);
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #f30;
+}
+
+a:hover {
+  color: #f90;
+}
+
+#header{
+	background-color: #232323;
+	height: 50px;
+　　width: 1000px;
+}
+
+#header_{
+	height: 50px;
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#contents{
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.post {
+	background: #fff;
+	width: 640px;
+	margin: 10px 10px 30px 10px;
+	padding: 20px 20px 20px 20px;
+  	position:relative;
+  	/*
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 1px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+            */
+            
+}
+
+#main{
+
+}
+
+#posts{
+	width: 700px;
+	height: auto;
+}
+.post h1 {
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 40px;
+  letter-spacing: -1px;
+}
+
+.post p {
+  margin: 20px 0;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.post ul, #main ol {
+  margin: 20px;
+}
+
+.post li {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.post ul li {
+  list-style-type: square;
+}
+
+
+#navi {
+  height:40px; 
+  padding: 20px 20px 0 0;
+  margin: 20px 0 0 10px;
+}
+#navi h2 {
+ font-family: Raleway!important;
+  text-transform: uppercase;
+  font-size: 58px;
+  color: #545454;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+#navi h2:hover {
+ font-family: Raleway!important;
+  text-transform: uppercase;
+  font-size: 58px;
+  color: #f90;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+#navi ul {
+  list-style-type: none;
+
+  margin: 20px 0;
+}
+
+#navi li {
+  font-size: 14px;
+  line-height: 20px;
+  float: left; 
+  margin-left: 20px;
+}
+#rside{
+	margin: 10px 0 0 0;
+	width: 250px;
+	height: 700px;
+	float: right;
+}
+
+.wrapper {
+	padding: 0;
+	margin: 0 0 10px 0;
+	/*position: relative;*/
+	float: right;
+	height: 200px;
+	width: 250px;
+}
+
+.box {
+	position: relative;
+	background: #2a2f33;
+	height: 200px;
+	width: 250px;
+	margin-bottom: 0px;
+}
+
+.photo {
+   	background-image: url(./img/pro.jpg);
+   	height: 150px;
+	width: 150px;
+	margin: 20px 0 0 50px ;
+	position: relative;
+	display: inline-block;
+	border-radius: 50%;
+-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,0.3),0 0 2px 2px rgba(200,200,200,0.1) inset;
+   -moz-box-shadow:0 0 2px 2px rgba(0,0,0,0.3),0 0 2px 2px rgba(200,200,200,0.1) inset;
+        box-shadow:0 0 2px 2px rgba(0,0,0,0.3),0 0 2px 2px rgba(200,200,200,0.1) inset;
+/*
+	position: relative;
+	background: #2a2f33;
+	height: 200px;
+	width: 250px;
+	margin-bottom: 0px;
+	*/
+}
+ 
+.box:after {
+    content: '';
+    position: absolute;
+    border-top: 20px solid #2a2f33;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    bottom: -20px;
+    left: 115px;
+}
+#recentpost{
+	font-family: Raleway!important;
+    font-size: 30px;
+}
+#recentposts{
+	width: 250px;
+	height: 400px;
+	background-color: #b4b4b4;
+	margin: 0px 0 0 0;
+	padding: 0;
+    float: right;
+    filter:alpha(opacity=10);
+    -moz-opacity: 0.1;
+    opacity: 0.1;	
+}
+
+#recentposts_{
+	width: 250px;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+    float: right;
+    position: absolute;
+    }
+
+.recentpost{
+	    margin: 0 0 0 10px;
+}
+
+.recentpost h1 a{
+	font-size: 20px;
+	color: #000;
+}
+
+#hr{
+	position:relative;
+	width: 250px;
+	height: 20px;
+	margin: 10px 0px 0px 0px;
+	padding: 0;
+}
+hr {
+	height:0;
+	border:0;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #fff;
+}
+
+#social{
+	width: 250px;
+	height: 40px;
+	margin: 230px 0px 0px 0px;
+	padding: 0;
+}
+
+.twitter-follow-button{
+	margin-left: 100px;
+}
+
+.facebook-follow-button{
+	margin-left: 0px;
+}
+
+#cse{
+	width: 250px;
+	height: 20px;
+	margin: 8px 0px 0px 0px;
+	padding: 0;
+	float: right;
+}
+#kamon{
+	   	background-image: url(./img/kamon.png);
+	   	width: 50px;
+	   	height: 50px;
+	   	margin: 0;
+	   	padding: 0;
+	   	float: left;
+}
