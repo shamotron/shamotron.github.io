@@ -159,6 +159,7 @@ a:hover {
   font-weight: normal;
   line-height: 40px;
   letter-spacing: -1px;
+  margin: 0 0 10px 0;
 }
 
 .post p {
@@ -186,19 +187,19 @@ a:hover {
   padding: 20px 20px 0 0;
   margin: 20px 0 0 10px;
 }
-#navi h2 {
+#navi a {
  font-family: Raleway!important;
   text-transform: uppercase;
-  font-size: 58px;
+  font-size: 72px;
   color: #545454;
   letter-spacing: 1px;
   line-height: 20px;
 }
 
-#navi h2:hover {
+#navi a:hover {
  font-family: Raleway!important;
   text-transform: uppercase;
-  font-size: 58px;
+  font-size: 72px;
   color: #f90;
   letter-spacing: 1px;
   line-height: 20px;
