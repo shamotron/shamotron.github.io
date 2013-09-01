@@ -1,85 +1,10 @@
 @charset "UTF-8";
 /*@font-face */
-@font-face{
-	font-family:"Existence-Light";
-	src: url("http://www.iamas.ac.jp/~wakame10/font/Existence_Light/Existence-Light.otf");
-	format("opentype");
-}
-
-@font-face{
-	font-family:"Plexifont-BV";
-	src: url("http://www.iamas.ac.jp/~wakame10/font/Plexifont-BV/plexifont.ttf");
-	format("opentype");
-}
-
-
-@font-face{
-	font-family:"Existence-Light";
-	src: url("http://www.iamas.ac.jp/~wakame10/font/Existence_Light/Existence-Light.otf");
-	format("opentype");
-}
 
 @font-face{
 	font-family:"Raleway";
-	src: url("http://www.iamas.ac.jp/~wakame10/font/Raleway/raleway_thin.otf");
+	src: url("./font/Raleway/raleway_thin.otf");
 	format("opentype");
-}
-
-@font-face{
-	font-family:"Commandoy";
-	src: url("http://www.iamas.ac.jp/~wakame10/font/Commando/commando.ttf");
-	format("opentype");
-}
-
-@font-face{
-	font-family:"Plexifont-BV";
-	src: url("http://www.iamas.ac.jp/~wakame10/font/Plexifont-BV/plexifont.ttf");
-	format("opentype");
-}
-
-@font-face{
-	font-family:"Kitchen-police";
-	src: url("http://www.iamas.ac.jp/~wakame10/font/Kitchen-police/KITCHENPOLICE.ttf");
-	format("opentype");
-}
-
-@font-face{
-	font-family:"Salaryman";
-	src: url("http://www.iamas.ac.jp/~wakame10/font/Salaryman/SALARYMA.ttf");
-	format("opentype");
-}
-
-@font-face{
-	font-family:"VanBerger";
-	src: url("http://www.iamas.ac.jp/~wakame10/font/VanBerger/VanBerger_Stencil.otf");
-	format("opentype");
-}
-
-@font-face{
-	font-family:"CPMono_v07_ExtraLight";
-	src: url("http://www.iamas.ac.jp/~wakame10/font/CPMono_v07/CPMono_v07_ExtraLight.otf");
-	format("opentype");
-}
-
-
-@font-face{
-	font-family:"orbitron-bold";
-	src: url("http://www.iamas.ac.jp/~wakame10/font/Orbitron/orbitron-bold.otf");
-	format("opentype");
-}
-
-@font-face{
-	font-family:"orbitron-medium";
-	src: url("http://www.iamas.ac.jp/~wakame10/font/Orbitron/orbitron-medium.otf");
-	format("opentype");
-}
-
-
-@font-face{
-	font-family:"orbitron-light";
-	src: url("http://www.iamas.ac.jp/~wakame10/font/Orbitron/orbitron-light.otf");
-	format("opentype");
-}
 
 
 *{
